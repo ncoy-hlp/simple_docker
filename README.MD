@@ -1,6 +1,6 @@
-First Clone Repo\
-make sure docker is installed\ 
-run the following in the root directory\
-docker build -t python-imdb .\
-docker run python-imdb\
+First Clone Repo<br>
+make sure docker is installed<br> 
+run the following in the root directory<br> 
+docker build -t python-imdb .<br> 
+docker run python-imdb
 
