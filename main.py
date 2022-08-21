@@ -30,14 +30,17 @@ def main():
 
     n_movies = len(titles)
 
-    while(True):
+    # while(True):
+    for i in range(10):
         idx = random.randrange(0, n_movies)
 
         print(f'{titles[idx]} {years[idx]}, Rating: {ratings[idx]:.1f}, Starring: {actors_list[idx]}')
-
-        user_input = input('Do you want another movie (y/[n])? ')
-        if user_input != 'y':
-            break
+        print('--------------')
+        if i == 9:
+            print('This is the end')
+        # user_input = input('Do you want another movie (y/[n])? ')
+        # if user_input != 'y':
+        #     break
 
 
 if __name__ == '__main__':
